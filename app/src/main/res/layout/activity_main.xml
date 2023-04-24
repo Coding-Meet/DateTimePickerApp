@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/dateTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="--/--/----"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/simpleDatePickerBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simple Date Picker"/>
+    <Button
+        android:id="@+id/materialDatePickerBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Material Date Picker"/>
+
+    <Button
+        android:id="@+id/simpleTimePickerBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simple Time Picker"/>
+    <Button
+        android:id="@+id/materialTimePickerBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Material Time Picker"/>
+
+    <TextView
+        android:id="@+id/timeTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="--:-- --"
+        android:textSize="20sp"/>
+</LinearLayout>
